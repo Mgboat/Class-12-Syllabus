@@ -3,6 +3,7 @@
     <head>
         <title>Computer Syllabus</title>
         <style>
+            
             .navigation {
                 background-color: rgb(199, 230, 230);
                 text-align: justify;
@@ -46,9 +47,9 @@
             .subhead {
                 color: #0e5358ab;
                 text-align: justify;
-                font-size: large;
+                font-size: larger;
             }
-            h3{font-size: 20px;}
+            h3{font-size: 25px;}
             .border {
                 border: 12px solid black; 
                 border-radius: 2%;
@@ -64,6 +65,7 @@
             <h1>Grade 12</h1>
         </div>
         <div class="topnav"> 
+            <a href="#syllabus" class="left"> Syllabus</a>
             <a href="#chapter1" class="left">Chapter 1</a>
             <a href="#chapter2" class="left">Chapter 2</a>
             <a href="#chapter3" class="left">Chapter 3</a>
@@ -72,9 +74,76 @@
             <a href="#chapter6" class="left">Chapter 6</a>
             <a href="#chapter7" class="left">Chapter 7</a>
             <a href="#chapter8" class="left">Chapter 8</a>
-            <a href="#table" class="left"> Table</a>
+          
            
         </div>
+        <div id="syllabus" class="border">
+    <h1> Syllabus</h1>
+    <div class="text">
+    <table border="1" cellpadding="5" cellspacing="0" width="50%" height="250px">
+        <thead>
+        <tr>
+            <th>S.N.</th>
+            <th> Topic</th>
+            <th>Content wise marks</th>
+            <th> Working Hours</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Database management system</td>
+            <td>8</td>
+            <td>12</td>
+        </tr>   
+        <tr>
+            <td>2</td>
+            <td>Data communication and networking</td>
+            <td>9</td>
+            <td>15</td>
+         </tr>
+         <tr>
+            <Td>3</Td>
+            <td>Web Tech- II</td>
+            <td>8</td>
+            <td>12</td>
+
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>C programming -II </td>
+            <td>8</td>
+            <td>12</td>
+         </tr>   
+         <tr>
+            <td>5</td>
+            <td>Object Oriented Programming</td>
+            <td>6</td>
+            <td>10</td>
+
+         </tr>
+         <tr>
+         <td>6</td>
+         <td>Software devolopment life cycle</td>
+         <td>6</td>
+         <td>10</td>
+         </tr>
+         <tr>
+            <td>7</td>
+            <td>
+                Recent Trends in Technology
+            </td>
+            <td>5</td>
+            <td>9</td>
+         </tr>
+         <tr>
+            <td colspan="2" align="center"><strong>Total</strong></td>
+            <td><b>50</b></td>
+            <td><b>80</b></td>
+         </tr>
+        </thead>
+    </table> 
+
+</div>
+</div>
         <div id="chapter1" class="border">
 <div class="text">        
 <div>
@@ -208,7 +277,7 @@
     <li>Sometimes denormalization is preferred for read-heavy applications to improve speed.</li>
   </ul>
 
-  <h2>Centralized and Distributed Database</h2>
+  <div class="subhead"><h2>Centralized and Distributed Database</h2></div></div>
   <h3>Introduction</h3>
   <p><strong>Centralized Database</strong> systems store data in a single central location managed by one DBMS instance. All data access, processing, and administration occur on this central server.</p>
   <p><strong>Distributed Database</strong> systems distribute data across multiple physical locations, connected through a network but appear as a single database to users. This approach can enhance performance, fault tolerance, and scalability.</p>
@@ -324,70 +393,350 @@
   </div>
 </div>
         </div>
-<div id="table" class="border">
-    <h1> Syllabus</h1>
-    <div class="text">
-    <table border="1" cellpadding="5" cellspacing="0" width="50%" height="250px">
-        <thead>
-        <tr>
-            <th>S.N.</th>
-            <th> Topic</th>
-            <th>Content wise marks</th>
-            <th> Working Hours</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Database management system</td>
-            <td>8</td>
-            <td>12</td>
-        </tr>   
-        <tr>
-            <td>2</td>
-            <td>Data communication and networking</td>
-            <td>9</td>
-            <td>15</td>
-         </tr>
-         <tr>
-            <Td>3</Td>
-            <td>Web Tech- II</td>
-            <td>8</td>
-            <td>12</td>
+      <div id="chapter4" class="border">
+  <div class="text">
 
-         </tr>
-         <tr>
-            <td>4</td>
-            <td>C programming -II </td>
-            <td>8</td>
-            <td>12</td>
-         </tr>   
-         <tr>
-            <td>5</td>
-            <td>Object Oriented Programming</td>
-            <td>6</td>
-            <td>10</td>
+    
+    <div class="subhead">
+      <h2>C Programming</h2>
+    </div>
 
-         </tr>
-         <tr>
-         <td>6</td>
-         <td>Software devolopment life cycle</td>
-         <td>6</td>
-         <td>10</td>
-         </tr>
-         <tr>
-            <td>7</td>
-            <td>
-                Recent Trends in Technology
-            </td>
-            <td>5</td>
-            <td>9</td>
-         </tr>
-         <tr>
-            <td colspan="2" align="center"><strong>Total</strong></td>
-            <td><b>50</b></td>
-            <td><b>80</b></td>
-         </tr>
-        </thead>
-    </table> 
+    
+    <div class="subhead">
+      <h3>Functions</h3>
+    </div>
 
-</div>
-</div>
+    <p><strong>Introduction and Syntax:</strong>  
+      A function in C is a self-contained block of code that performs a specific task. Functions help in organizing code into modular pieces, which can be reused and maintained easily. The basic syntax of a function includes:
+    </p>
+    <ul>
+      <li><code>return_type function_name(parameter_list) { /* function body */ }</code></li>
+    </ul>
+    <p>Where:</p>
+    <ul>
+      <li><strong>return_type</strong>: The data type of the value the function returns (e.g., int, void).</li>
+      <li><strong>function_name</strong>: Identifier to call the function.</li>
+      <li><strong>parameter_list</strong>: Comma-separated variables passed to the function (can be empty).</li>
+      <li><strong>function body</strong>: Code block enclosed in braces that performs the function's task.</li>
+    </ul>
+
+    <p><strong>Purpose and Advantages:</strong></p>
+    <ul>
+      <li>Breaks down complex programs into simpler sub-tasks.</li>
+      <li>Enhances code reusability and readability.</li>
+      <li>Makes debugging easier by isolating errors.</li>
+      <li>Improves program structure and maintenance.</li>
+    </ul>
+
+    <p><strong>Components of a Function:</strong></p>
+    <ul>
+      <li><strong>Function Prototype:</strong> Declares the function's return type, name, and parameters before its use, helping the compiler check correctness.</li>
+      <li><strong>Function Definition:</strong> Contains the actual body/code of the function.</li>
+      <li><strong>Function Call:</strong> Executes the function by calling it with required arguments.</li>
+      <li><strong>Return Statement:</strong> Sends a value back to the caller; if the function returns void, no value is returned.</li>
+    </ul>
+
+    <p><strong>Types of Functions:</strong></p>
+    <ul>
+      <li><strong>Library Functions:</strong> Predefined functions provided by the C standard library (e.g., <code>printf()</code>, <code>scanf()</code>, <code>strlen()</code>).</li>
+      <li><strong>User-Defined Functions:</strong> Functions created by the programmer to perform specific tasks.</li>
+    </ul>
+
+    <p><strong>Passing Arguments to Functions:</strong></p>
+    <ul>
+      <li><strong>Call by Value:</strong> The function receives a copy of the variable's value. Changes inside the function do not affect the original variable.</li>
+      <li><strong>Call by Reference:</strong> The function receives the address of the variable (using pointers). Changes inside the function modify the original variable.</li>
+    </ul>
+
+    <p><strong>Variable Scope:</strong></p>
+    <ul>
+      <li><strong>Local Variables:</strong> Declared inside functions or blocks, only accessible within that scope.</li>
+      <li><strong>Global Variables:</strong> Declared outside all functions, accessible throughout the program.</li>
+    </ul>
+
+    <p><strong>Storage Classes in C:</strong> Storage classes determine the lifetime and visibility of variables.</p>
+    <ul>
+      <li><strong>Automatic (auto):</strong> Default for local variables; allocated when block executes and destroyed afterward.</li>
+      <li><strong>External (extern):</strong> Declares a variable defined in another file or outside the current block.</li>
+      <li><strong>Static:</strong> Retains the value between function calls; scope can be local or global.</li>
+      <li><strong>Register:</strong> Suggests storing the variable in CPU register for faster access (may be ignored by the compiler).</li>
+    </ul>
+
+    <p><strong>Functions with Arrays:</strong></p>
+    <p>Functions can accept arrays as parameters to process multiple data elements. Arrays are passed as pointers, allowing functions to access and modify the original array elements.</p>
+    <pre><code>void printArray(int arr[], int size) {
+  for(int i = 0; i &lt; size; i++) {
+    printf("%d ", arr[i]);
+  }
+}
+</code></pre>
+
+    <p><strong>Recursive Functions:</strong></p>
+    <p>These functions call themselves to solve problems by breaking them into smaller subproblems. They require a base case to end recursion, preventing infinite loops.</p>
+    <pre><code>int factorial(int n) {
+  if (n == 0) return 1; // base case
+  else return n * factorial(n-1); // recursive call
+}
+</code></pre>
+
+    <p><strong>Advantages and Disadvantages of Functions:</strong></p>
+    <ul>
+      <li><strong>Advantages:</strong> Reusability, better organization, easier maintenance, and testing.</li>
+      <li><strong>Disadvantages:</strong> Overhead of function calls may reduce performance slightly; excessive recursion can cause stack overflow.</li>
+    </ul>
+
+  
+    <div class="subhead">
+      <h3>Structure and Union</h3>
+    </div>
+
+    <h3 class="subhead">Structure:</h3>
+    <p>A structure is a user-defined data type in C that groups variables of different types under a single name, allowing representation of complex data objects.</p>
+    <ul>
+      <li><strong>Introduction and Syntax:</strong> Defined using the <code>struct</code> keyword.</li>
+      <pre><code>struct Student {
+  int id;
+  char name[50];
+  float marks;
+};
+</code></pre>
+      <li><strong>Structure Size:</strong> Total size is the sum of sizes of all members plus any padding added for alignment.</li>
+      <li><strong>Accessing Members:</strong> Use the dot operator (<code>.</code>) to access members of a structure variable.</li>
+      <li><strong>Nested Structures:</strong> Structures can contain other structures as members to model complex data.</li>
+      <li><strong>Array of Structures:</strong> You can create arrays to hold multiple structure variables, useful for handling records or lists.</li>
+      <li><strong>Passing Structures to Functions:</strong> Structures can be passed by value (copy of entire structure) or by reference (using pointers) to avoid overhead.</li>
+    </ul>
+
+    <h3 class="subhead">Union:</h3>
+    <p>Unions are similar to structures but share the same memory location for all members. This means only one member can hold a value at a time, making unions memory-efficient.</p>
+    <ul>
+      <h3 class="subhead">Introduction and Syntax:</h3></strong> Defined using the <code>union</code> keyword.</li>
+      <pre><code>union Data {
+  int i;
+  float f;
+  char str[20];
+};
+</code></pre>
+      <h3 class="subhead">Comparison Between Structure and Union:</h3>
+      <ul>
+        <li>Structures allocate separate memory for each member; unions allocate shared memory equal to the largest member.</li>
+        <li>Structures can store values for all members simultaneously; unions can store value for only one member at a time.</li>
+        <li>Unions are used for memory optimization when only one member is used at a time (e.g., handling different data types in the same memory space).</li>
+      </ul>
+    </ul>
+
+  
+  <div class="subhead"><h2> Pointers in C</h2></div>
+
+        <h3 class="subhead">Introduction and Syntax</h3>
+        <p class="text">
+            A pointer is a variable that stores the memory address of another variable. It is a powerful feature in C that allows direct memory access and manipulation.
+            Syntax: <code>datatype *pointer_name;</code> where <code>datatype</code> is the type of variable the pointer points to.
+        </p>
+
+        <h3 class="subhead">Usage and Working</h3>
+        <p class="text">
+            Pointers are used to dynamically allocate memory, pass large structures or arrays efficiently to functions, and to work with complex data structures like linked lists.
+            The pointer variable holds the address of another variable, and using the dereference operator <code>*</code>, you can access or modify the data stored at that address.
+        </p>
+
+        <h3 class="subhead">Concept of Value and Address</h3>
+        <p class="text">
+            Every variable in C has a value and a memory address. The value is the data stored, while the address is the location in memory where the value resides.
+            Pointers store these addresses instead of values.
+        </p>
+
+        <h3 class="subhead">Declaration and Initialization</h3>
+        <p class="text">
+            Example:
+            <br>
+            <code>int *ptr;</code> declares a pointer to an integer.
+            <br>
+            <code>int x = 10;</code>
+            <br>
+            <code>ptr = &x;</code> initializes the pointer with the address of <code>x</code>.
+        </p>
+
+        <h3 class="subhead">Pointer and Function with code example</h3>
+        <p class="text">
+            Pointers can be passed to functions to modify the original variables.
+        </p>
+        <pre class="text">
+void increment(int *p) {
+    (*p)++;
+}
+
+int main() {
+    int a = 5;
+    increment(&a);
+    // a is now 6
+    return 0;
+}
+        </pre>
+
+        <h3 class="subhead">Call by Reference with code example</h3>
+        <p class="text">
+            Using pointers, functions can change variables outside their scope by receiving addresses.
+        </p>
+        <pre class="text">
+void swap(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
+int main() {
+    int a = 10, b = 20;
+    swap(&a, &b);
+    // a is 20, b is 10
+    return 0;
+}
+        </pre>
+
+        <h3 class="subhead">Comparison between Call by Value and Call by Reference</h3>
+        <p class="text">
+            <strong>Call by Value:</strong> Passes copies of variables to functions, so changes inside function do not affect originals.
+            <br>
+            <strong>Call by Reference:</strong> Passes addresses via pointers, allowing functions to modify original variables.
+        </p>
+
+        <h3 class="subhead">Pointer with Arrays with code example</h3>
+        <p class="text">
+            Arrays and pointers are closely related; the name of the array acts as a pointer to the first element.
+        </p>
+        <pre class="text">
+int arr[] = {1, 2, 3};
+int *p = arr; // points to arr[0]
+printf("%d", *(p + 1)); // prints 2
+        </pre>
+
+        <h3 class="subhead">Advantages and Disadvantages</h3>
+        <p class="text">
+            <strong>Advantages:</strong>
+            <ul>
+                <li>Efficient memory management</li>
+                <li>Enable dynamic data structures</li>
+                <li>Facilitate efficient array and string handling</li>
+            </ul>
+            <strong>Disadvantages:</strong>
+            <ul>
+                <li>Complexity and risk of errors (dangling pointers, memory leaks)</li>
+                <li>Potential security vulnerabilities</li>
+                <li>Harder to debug pointer-related bugs</li>
+            </ul>
+        </p>
+
+        <div class="subhead"><h2> File Handling in C</h2></div>
+
+        <h3 class="subhead">Concept of Data File</h3>
+        <p class="text">
+            A data file stores information permanently on a disk. Files can be text or binary and allow programs to save and retrieve data between runs.
+        </p>
+
+        <h3 class="subhead">Need for File Handling in C</h3>
+        <p class="text">
+            To process data that cannot be stored in memory during execution or to keep persistent data, C programs use file handling to read and write data to files.
+        </p>
+
+        <h3 class="subhead">Sequential and Random Files</h3>
+        <p class="text">
+            <strong>Sequential files:</strong> Data is accessed in order, one record after another.
+            <br>
+            <strong>Random files:</strong> Data can be accessed directly at any position, supporting faster retrieval.
+        </p>
+
+        <h3 class="subhead">File Handling Functions</h3>
+        <p class="text">
+            <strong>fopen():</strong> Opens a file. Syntax: <code>FILE *fopen(const char *filename, const char *mode);</code>
+            <br>
+            <strong>fclose():</strong> Closes an opened file. Syntax: <code>int fclose(FILE *stream);</code>
+            <br>
+            <strong>getc():</strong> Reads a character from a file. Syntax: <code>int getc(FILE *stream);</code>
+            <br>
+            <strong>putc():</strong> Writes a character to a file. Syntax: <code>int putc(int char, FILE *stream);</code>
+            <br>
+            <strong>fprintf():</strong> Writes formatted output to a file. Syntax: <code>int fprintf(FILE *stream, const char *format, ...);</code>
+            <br>
+            <strong>fscanf():</strong> Reads formatted input from a file. Syntax: <code>int fscanf(FILE *stream, const char *format, ...);</code>
+            <br>
+            <strong>getw():</strong> Reads an integer from a file. Syntax: <code>int getw(FILE *stream);</code>
+            <br>
+            <strong>putw():</strong> Writes an integer to a file. Syntax: <code>int putw(int w, FILE *stream);</code>
+            <br>
+            <strong>fgets():</strong> Reads a string from a file. Syntax: <code>char *fgets(char *str, int n, FILE *stream);</code>
+            <br>
+            <strong>fputs():</strong> Writes a string to a file. Syntax: <code>int fputs(const char *str, FILE *stream);</code>
+            <br>
+            <strong>fread():</strong> Reads data from a file. Syntax: <code>size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);</code>
+            <br>
+            <strong>fwrite():</strong> Writes data to a file. Syntax: <code>size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);</code>
+            <br>
+            <strong>remove():</strong> Deletes a file. Syntax: <code>int remove(const char *filename);</code>
+            <br>
+            <strong>rename():</strong> Renames a file. Syntax: <code>int rename(const char *oldname, const char *newname);</code>
+        </p>
+
+        <h3 class="subhead">Random Access Functions</h3>
+        <p class="text">
+            <strong>fseek():</strong> Moves the file pointer to a specified location. Syntax: <code>int fseek(FILE *stream, long offset, int whence);</code>
+            <br>
+            <strong>rewind():</strong> Sets the file pointer to the beginning of the file. Syntax: <code>void rewind(FILE *stream);</code>
+            <br>
+            <strong>ftell():</strong> Returns the current position of the file pointer. Syntax: <code>long ftell(FILE *stream);</code>
+        </p>
+
+        <h3 class="subhead">File Opening Modes</h3>
+        <p class="text">
+            <ul>
+                <li><code>r</code>: Read mode, file must exist.</li>
+                <li><code>r+</code>: Read/Write mode, file must exist.</li>
+                <li><code>w</code>: Write mode, creates file if doesn't exist, truncates if exists.</li>
+                <li><code>w+</code>: Read/Write mode, creates or truncates file.</li>
+                <li><code>a</code>: Append mode, writes data at end, creates file if doesn't exist.</li>
+                <li><code>a+</code>: Read/Append mode, creates file if doesn't exist.</li>
+            </ul>
+        </p>
+
+        <h3 class="subhead">Steps to Work with File in C</h3>
+        <p class="text">
+            1. Define a file pointer: <code>FILE *fp;</code>
+            <br>
+            2. Open the file with required mode: <code>fp = fopen("file.txt", "r");</code>
+            <br>
+            3. Perform Read, Write or Append operations using functions.
+            <br>
+            4. Close the file using <code>fclose(fp);</code>
+        </p>
+
+        <h3 class="subhead">Reading Data from Files</h3>
+        <p class="text">
+            Functions like <code>fgetc()</code>, <code>fgets()</code>, and <code>fread()</code> can be used to read data from files.
+        </p>
+
+        <h3 class="subhead">Writing Data on Files</h3>
+        <p class="text">
+            Functions like <code>fputc()</code>, <code>fputs()</code>, and <code>fwrite()</code> are used to write data on files.
+        </p>
+
+        <h3 class="subhead">Appending Data Files</h3>
+        <p class="text">
+            Open files in append mode <code>"a"</code> or <code>"a+"</code> to add data at the end without overwriting existing content.
+        </p>
+
+        <h3 class="subhead">End of File (EOF)</h3>
+        <p class="text">
+            EOF indicates no more data to read from a file. It is typically checked using <code>feof()</code> function.
+        </p>
+
+        <h3 class="subhead">Typedef Keyword in C</h3>
+        <p class="text">
+            <code>typedef</code> allows you to create new names (aliases) for existing data types, making code more readable.
+            <br>
+            Example:
+            <br>
+            <code>typedef unsigned int uint;</code>
+            <br>
+            Now, <code>uint</code> can be used as a synonym for <code>unsigned int</code>.
+        </p>
+    </div>
+</body>
